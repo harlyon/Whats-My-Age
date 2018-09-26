@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+.App {
+  text-align: center;
+  padding: 15%;
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+  background:url(./image/background.png);
+  height: 100vh;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.fade {
+  animation-name: fade-in ;
+  animation-duration: 2s;
+}
+
+age-stats {
+  opacity: 100;
+}
+
+@keyframes fade-in {
+  from { opacity: 0 }
+  to { opacity: 1800 }
+}
